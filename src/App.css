@@ -1,0 +1,46 @@
+.patientDetailsContainer{
+    max-width: 768px;
+    line-height: 2;
+}
+
+.patientNameProgressCon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.patientNameCon{
+    width: 50%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ruler{
+    background: #B6B6B6;
+    border: none;
+    height: 4px;
+    width: 100vw;
+}
+.CircularProgressbar{
+    height: 150px;
+    position: relative;
+}
+@media  screen and (max-width:900px) {
+    .patientNameProgressCon{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .patientNameCon{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:400px) {
+    .patientDetailsContainer{
+        font-size: 0.8rem;
+    }
+}
